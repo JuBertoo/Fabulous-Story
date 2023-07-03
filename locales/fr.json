@@ -1,0 +1,123 @@
+{
+  "story": { 
+    "settings": {
+      "langs": [
+        {
+          "name": "Français",
+          "code": "fr"
+        },
+        {
+          "name": "English",
+          "code": "en"
+        },
+        {
+          "name": "Español",
+          "code": "es"
+        },
+        {
+          "name": "Deutsch",
+          "code": "de"
+        },
+        {
+          "name": "Italiano",
+          "code": "it"
+        },
+        {
+          "name": "Português",
+          "code": "pt"
+        },
+        {
+          "name": "Русский",
+          "code": "ru"
+        },
+        {
+          "name": "中文",
+          "code": "zh"
+        },
+        {
+          "name": "日本語",
+          "code": "ja"
+        },
+        {
+          "name": "한국어",
+          "code": "ko"
+        }
+      ],
+      "ages": [
+        {
+          "name": "2-4 ans"
+        },
+        {
+          "name": "5-7 ans"
+        },
+        {
+          "name": "8-10 ans"
+        },
+        {
+          "name": "11-12 ans"
+        },
+        {
+          "name": "plus de 12 ans"
+        }
+      ],
+      "types": 
+      [
+        {
+          "name": "Classique",
+          "shortDescription": "",
+          "longDescription": "Les histoires peuvent être des contes de fées, des histoires éducatives ou tout autre type d'histoire qui capte l'attention et l'imagination des enfants"
+        },
+        {
+          "name": "Contes de fées et légendes",
+          "shortDescription": "créatures fantastiques, princesses, chevaliers",
+          "longDescription": "Ces histoires sont pleines de magie, de princesses, de chevaliers, de dragons et de créatures fantastiques. Elles peuvent enseigner des valeurs morales et transmettre des messages éducatifs aux enfants."
+        },
+        {
+          "name": "Aventure",
+          "shortDescription": "quêtes palpitantes, exploration",
+          "longDescription": "Les histoires d'aventure emmènent les enfants dans des quêtes passionnantes où ils peuvent découvrir de nouveaux mondes et surmonter des obstacles pour atteindre un objectif."
+        },
+        {
+          "name": "Science-fiction",
+          "shortDescription": "mondes futuristes, espace",
+          "longDescription": "Les histoires de science-fiction permettent aux enfants d'explorer des mondes futuristes, des voyages dans l'espace, des robots et des extraterrestres, tout en stimulant leur imagination et leur curiosité pour la technologie et l'avenir."
+        },
+        {
+          "name": "Animaux et nature",
+          "shortDescription": "histoires d'animaux, environnement",
+          "longDescription": "Les histoires mettant en scène des animaux et des éléments de la nature permettent aux enfants d'apprendre à propos de la faune et de la flore et d'éveiller leur intérêt pour l'environnement et la conservation."
+        },
+        {
+          "name": "Histoires éducatives",
+          "shortDescription": "concepts ludiques, apprentissage",
+          "longDescription": "Ces histoires peuvent enseigner aux enfants des concepts tels que les chiffres, les lettres, les couleurs et les formes, tout en les rendant amusants et engageants."
+        },
+        {
+          "name": "Mystère et suspense",
+          "shortDescription": "énigmes, résolution de problèmes",
+          "longDescription": "Les histoires de mystère et de suspense peuvent aider les enfants à développer leur esprit critique et leur capacité à résoudre des problèmes en suivant des indices et en dénouant des intrigues."
+        },
+        {
+          "name": "Histoires de super-héros",
+          "shortDescription": "pouvoirs, défense du bien",
+          "longDescription": "Les histoires de super-héros montrent aux enfants des personnages qui utilisent leurs pouvoirs et leurs talents pour défendre le bien et combattre le mal."
+        },
+        {
+          "name": "Histoires d'amitié",
+          "shortDescription": "relations, loyauté, entraide",
+          "longDescription": "Ces histoires mettent l'accent sur les relations entre les personnages et peuvent enseigner aux enfants l'importance de l'amitié, de la loyauté, de la confiance et de l'entraide."
+        },
+        {
+          "name": "Récits historiques",
+          "shortDescription": "voyage dans le temps, événements passés",
+          "longDescription": "Les histoires historiques permettent aux enfants de voyager dans le temps pour découvrir des événements et des personnages du passé, tout en apprenant l'histoire d'une manière intéressante et engageante."
+        },
+        {
+          "name": "Poésie et comptines",
+          "shortDescription": "mots, rimes, rythmes",
+          "longDescription": "Les histoires sous forme de poésie ou de comptines permettent aux enfants de développer leurs compétences linguistiques et de jouer avec les mots, les rimes et les rythmes."
+        }
+      ]
+    }   
+  } 
+}
