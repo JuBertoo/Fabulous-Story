@@ -19,15 +19,7 @@ export default defineNuxtConfig({
   i18n: {
     locales: ['en', 'fr'], // used in URL path prefix
     defaultLocale: 'fr',
-    vueI18n: {
-      legacy: false,
-      locale: 'fr',
-      fallbackLocale: 'en',
-      messages: {
-        fr: require('./locales/fr.json'),
-        en: require('./locales/en.json'),
-      },
-    },
+    vueI18n: './locales/i18n.config.js',
   },
 
   app: {
