@@ -6,7 +6,7 @@
         <NuxtLink to="/login" class="button--green"> Login </NuxtLink>
         <NuxtLink to="/articles" class="button--grey"> Continue Free </NuxtLink>
       </div>
-      <div class="flex flex-col w-full max-w-md py-24 mx-auto stretch">
+      <!-- <div class="flex flex-col w-full max-w-md py-24 mx-auto stretch">
         <div v-for="m in messages" key="m.id" class="whitespace-pre-wrap">
           {{ m.role === 'user' ? 'User: ' : 'AI: ' }}
           {{ m.content }}
@@ -20,13 +20,13 @@
             @change="handleInputChange"
           />
         </form>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
 <script setup>
-import { useChat } from 'ai/vue'
-const { messages, input, handleInputChange, handleSubmit } = useChat()
+// import { useChat } from 'ai/vue'
+// const { messages, input, handleInputChange, handleSubmit } = useChat()
 
 // export default {
 //   middleware: 'authenticated',
