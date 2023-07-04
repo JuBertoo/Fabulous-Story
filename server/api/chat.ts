@@ -5,9 +5,9 @@ import type { H3Event } from 'h3'
 let openai: OpenAIApi
 
 export default defineEventHandler(async (event: any) => {
-  // You can probably move this out of the event handler with vercel-edge
+// You can probably move this out of the event handler with vercel-edge
   if (!openai) {
-    const apiKey = useRuntimeConfig().openaiApiKey as string
+    let apiKey = useRuntimeConfig().openaiApiKey as string
     const config = new Configuration({ apiKey })
     openai = new OpenAIApi(config)
   }
@@ -21,8 +21,8 @@ export default defineEventHandler(async (event: any) => {
     stream: true,
     messages: messages.map((message: any) => ({
       content: message.content,
-      role: message.role,
-    })),
+      role: message.role
+    }))
   })
 
   // Convert the response into a friendly text-stream
@@ -49,7 +49,7 @@ function sendStream(event: H3Event, stream: ReadableStream) {
         },
         close() {
           event.node.res.end()
-        },
+        }
       })
     )
   }
