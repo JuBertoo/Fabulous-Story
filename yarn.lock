@@ -3568,11 +3568,6 @@ graphql@^16.6.0:
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-16.7.1.tgz#11475b74a7bff2aefd4691df52a0eca0abd9b642"
   integrity sha512-DRYR9tf+UGU0KOsMcKAlXeFfX89UiiIZ0dRU3mR0yJfu6OjZqUcp68NnFLnqQU5RexygFoDy1EW+ccOYcPfmHg==
 
-"gsap@npm:@gsap/member":
-  version "3.12.2"
-  resolved "https://npm.greensock.com/@gsap%2fmember/-/member-3.12.2.tgz#931312d9b1f6175de9f4217349b9caed8fc3abae"
-  integrity sha512-E9xgjffvkCqO7l5Nw4XWsQTZQUx3zr1NTdgTjxqx+AtkcB3YILs263HlxJRXRvTrDXsYiG+kmr4BDINnvGzKfQ==
-
 gzip-size@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/gzip-size/-/gzip-size-7.0.0.tgz#9f9644251f15bc78460fccef4055ae5a5562ac60"

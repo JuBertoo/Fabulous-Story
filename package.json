@@ -34,10 +34,10 @@
     "@stripe/stripe-js": "^1.52.1",
     "@tailwindcss/forms": "^0.5.3",
     "ai": "^2.1.7",
-    "gsap": "npm:@gsap/member",
     "h3": "1.7.0",
     "openai-edge": "^0.5.1",
     "pinia": "^2.0.33",
-    "stripe": "^12.2.0"
+    "stripe": "^12.2.0",
+    "unctx": "^2.3.1"
   }
 }
